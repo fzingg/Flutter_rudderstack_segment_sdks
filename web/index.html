@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="first_app_firebase_emulator">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>first_app_firebase_emulator</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+
+  <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="1GoiMgCYVKwws5fDCuhzt2wMmzvbtYfF";;analytics.SNIPPET_VERSION="4.15.3";
+    analytics.load("1GoiMgCYVKwws5fDCuhzt2wMmzvbtYfF");
+    analytics.page();
+    }}();
+  </script>
+
+
+<!--  <script>-->
+<!--  rudderanalytics = window.rudderanalytics = [];-->
+<!--  var methods = [-->
+<!--    "load",-->
+<!--    "page",-->
+<!--    "track",-->
+<!--    "identify",-->
+<!--    "alias",-->
+<!--    "group",-->
+<!--    "ready",-->
+<!--    "reset",-->
+<!--    "getAnonymousId",-->
+<!--    "setAnonymousId",-->
+<!--    "getUserId",-->
+<!--    "getUserTraits",-->
+<!--    "getGroupId",-->
+<!--    "getGroupTraits",-->
+<!--    "startSession",-->
+<!--    "endSession"-->
+<!--  ];-->
+<!--  for (var i = 0; i < methods.length; i++) {-->
+<!--    var method = methods[i];-->
+<!--    rudderanalytics[method] = (function (methodName) {-->
+<!--      return function () {-->
+<!--        rudderanalytics.push(-->
+<!--          [methodName].concat(Array.prototype.slice.call(arguments))-->
+<!--        );-->
+<!--      };-->
+<!--    })(method);-->
+<!--  }-->
+
+<!--  rudderanalytics.load("2IoUToaRHsaCw89dBnuTgsixoac", "https://mindsetfrvk.dataplane.rudderstack.com");-->
+<!--  rudderanalytics.page();-->
+
+<!--  rudderanalytics.ready(() => {-->
+<!--    console.log("All set!");-->
+<!--  });-->
+
+
+<!--</script>-->
+
+<!--  <script src="https://cdn.rudderlabs.com/v1.1/rudder-analytics.min.js"></script>-->
+
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+
+<!--  <script>-->
+<!--  let user_id = rudderanalytics.getAnonymousId();-->
+<!--  console.log(user_id);-->
+
+<!--  rudderanalytics.identify(user_id, {-->
+<!--    email: "frederic@mindset.ai",-->
+<!--  })-->
+
+<!--&lt;!&ndash;rudderanalytics.track("test_event", {&ndash;&gt;-->
+<!--&lt;!&ndash;  "key1": "test_val1",&ndash;&gt;-->
+<!--&lt;!&ndash;  "key2": "test_val2",&ndash;&gt;-->
+<!--&lt;!&ndash;  "key3": "test_val3"&ndash;&gt;-->
+<!--&lt;!&ndash;})&ndash;&gt;-->
+
+<!--  rudderanalytics.page(-->
+<!--    "Home",-->
+<!--    "home_page", {-->
+<!--      path: "/",-->
+<!--      url: "http://127.0.0.1/"-->
+<!--    },-->
+<!--    () => {-->
+<!--      console.log("page call");-->
+<!--    }-->
+<!--  );-->
+<!--  </script>-->
+</body>
+</html>
