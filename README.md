@@ -1,16 +1,10 @@
-# first_app_firebase_emulator
+# Flutter_reudderstack_segment_sdks
 
-A new Flutter project.
+Sample project for testing Rudderstack and Segment client SDKs.
 
-## Getting Started
+Rudderstack and Segment allow event stream tracking and pipeling those events to many destinations.
 
-This project is a starting point for a Flutter application.
+Plugins used :
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+rudder_sdk_flutter: ^2.2.0
+flutter_segment: ^3.12.1
